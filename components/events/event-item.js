@@ -23,7 +23,7 @@ function EventItem(props) {
       <img src={`/${image}`} alt={title} />
       <div className={classes.content}>
         <div className={classes.summary}>
-          <h2>Title</h2>
+          <h2>{title}</h2>
           <div className={classes.date}>
             <DateIcon />
             <time>{humanReadableDate}</time>
