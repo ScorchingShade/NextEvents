@@ -8,7 +8,7 @@ function EventList(props) {
     <ul className={classes.list}>
       {items.map((event) => (
         <EventItem
-          key={event.key}
+          key={event.id}
           id={event.id}
           title={event.title}
           location={event.location}
